@@ -1,0 +1,27 @@
+.container {
+  min-width: 200px;
+  width: 50%;
+  max-width: 400px;
+  padding: 1rem;
+  border: 3px solid rgb(91, 0, 177);
+  border-radius: 5px;
+  margin: 200px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blueviolet;
+}
+.timer{
+  font-size: 50px;
+  color: gold;
+}
+.btn {
+  border: 2px solid gold;
+  border-radius: 5px;
+  color: gold;
+  background-color: rgb(91, 0, 177);
+}
+.btn + .btn{
+  margin-left: 15px;
+  
+}
